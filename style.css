@@ -96,8 +96,7 @@ nav a{
 }
 /* main section styles */
 .main{
-    width: 1140px;
-    margin: 0 auto;
+ 
 }
 main section{
     margin-top: 130px;
@@ -210,3 +209,55 @@ textarea {
     width: 100%;
 }
 
+/* responsive styles */
+/* mobile device */
+.hide{
+    display: none;
+}
+@media screen and (max-width:576px) {
+    nav,nav>ul,.banner,.skills-container, .resume-container,.about-info-container{
+        flex-direction: column;
+    }
+   nav>ul{
+    gap: 20px;
+   }
+   .header{
+    background-image: none;
+   }
+   .banner,
+    #what-i-do-description{
+        padding: 20px;
+         
+     
+    }
+    footer,.about{
+        padding: 10px;
+        flex-direction: column;
+    }
+    .btn-primary{
+        margin-bottom: 15px;
+    }
+    .footer-column{
+        width: 100%;
+    }
+    .contact input[type="text"], .contact input[type="email"],
+textarea{
+    width: 80%;
+}
+}
+.banner .profile-pic{
+    width: 100%;
+}
+@media screen and (min-width:576px) and (max-width:960px) {
+    footer{
+      padding: 80px;
+ 
+    } 
+    .header {
+    
+    }
+    .btn-primary{
+        margin-bottom: 100px;
+    }
+
+}
