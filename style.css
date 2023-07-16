@@ -248,6 +248,10 @@ textarea{
 .banner .profile-pic{
     width: 100%;
 }
+.social-links a{
+   margin-left: 75px;
+  
+}
 @media screen and (min-width:576px) and (max-width:960px) {
     footer{
       padding: 80px;
@@ -259,5 +263,10 @@ textarea{
     .btn-primary{
         margin-bottom: 100px;
     }
+
+    .social-links a{
+        margin-left: 45px;
+       
+     }
 
 }
